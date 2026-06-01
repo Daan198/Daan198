@@ -14,8 +14,8 @@ The workflow runs in three cases:
 
 - A push targets the `main` branch.
 - A pull request targets the `main` branch.
-- A maintainer starts it manually from the GitHub Actions tab with
-  `workflow_dispatch`.
+- A maintainer starts it manually through GitHub workflow dispatch
+  (`workflow_dispatch`).
 
 ### What it does today
 
