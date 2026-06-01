@@ -52,7 +52,8 @@ reliably on both pull requests and pushes to `main`.
 ## Common pitfalls
 
 - The workflow only triggers automatically for changes involving `main`.
-- Manual runs must be started from the GitHub Actions tab.
+- Manual runs can be started from the GitHub Actions tab or other GitHub
+  workflow dispatch mechanisms available to maintainers.
 - Adding project-specific build or test commands requires the corresponding
   tooling and lockfiles to exist in the repository.
 - Secrets are not configured or referenced by the current workflow.
